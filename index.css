@@ -1,0 +1,114 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.navbar{
+    width: 100%;
+    padding: 15px 19%;
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.nav-links li a{
+text-decoration: none;
+padding: 10px 14px;
+color: black;
+font-size: 20px;
+font-family: "Noto Sans", sans-serif !important;
+/* transition: 0.3s; */
+}
+.logo{
+    font-size: 30px;
+    /* font-family: */
+}
+
+
+.Container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Box {
+    padding: 20px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p1 {
+    font-size: 55px;
+    font-family: "Noto Sans", sans-serif !important;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.p2 {
+    font-size: 24px;
+    font-family: "Noto Sans", sans-serif !important;
+    box-sizing: border-box;
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif !important;
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 520px;
+    height: 70px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(178, 178, 178);
+}
+
+.Bookbtn {
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif !important;
+    box-sizing: border-box;
+    margin-top: 50px;
+    font-weight: 800;
+    width: 520px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 202, 32);
+    cursor: pointer;
+}
+.Main_Background{
+    background-color:rgb(247, 250, 255);
+    padding: 64px 48px;
+}
+
+.Main_Background_1{
+    background-color:rgb(255, 255, 255);
+    /* padding: 50px 48px; */
+}
+.Container_1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+.Box_1 {
+    padding: 20px;
+    margin: 10px;
+}
+.Container_Our_Services {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+.Box_Our_Services {
+    padding: 10px;
+    margin: 5px;
+}
